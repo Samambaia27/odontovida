@@ -22,3 +22,23 @@ INSERT INTO Procedimento (nome, custo) VALUES
 ('Proótese Parcial', 1200.00), 
 ('Tratamento de Gengiva', 300.00), 
 ('Reparo de Prótese', 250.00);
+
+﻿
+
+/*
+Esta consulta fornece informações sobre os pagamentos efetuados, incluindo o valor pago, a data do pagamento e a descrição do tratamento associado.
+*/
+SELECT p.pagamento_id,
+t.descricao AS tratamento_descricao,
+p.valor AS valor pago,
+p.data_pagamento 
+
+FROM
+Pagamento p
+
+INNER JOIN
+Tratamento t ON p.tratamento_id = t.tratamento_id;
+
+
+
+
