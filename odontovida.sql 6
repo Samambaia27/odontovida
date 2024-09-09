@@ -1,0 +1,24 @@
+INSERT INTO Procedimento (nome, custo) VALUES
+('Limpeza Dental', 150.00),
+('Tratamento de Canal', 800.00),
+('Aplicação de Flúor', 100.00),
+('Extração de Dente', 200.00),
+('Colocação de Aparelho', 1500.00), 
+('Implante Dentário', 2000.00), 
+('Clareamento Dental', 500.00), 
+('Proótese Parcial', 1200.00), 
+('Tratamento de Gengiva', 300.00), 
+('Reparo de Prótese', 250.00);
+﻿
+
+INSERT INTO Procedimento (nome, custo) VALUES
+('Limpeza Dental', 150.00),
+('Tratamento de Canal', 800.00),
+('Aplicação de Flúor', 100.00),
+('Extração de Dente', 200.00),
+('Colocação de Aparelho', 1500.00), 
+('Implante Dentário', 2000.00), 
+('Clareamento Dental', 500.00), 
+('Proótese Parcial', 1200.00), 
+('Tratamento de Gengiva', 300.00), 
+('Reparo de Prótese', 250.00);
